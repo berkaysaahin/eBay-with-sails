@@ -8,6 +8,31 @@
 module.exports = {
 
   attributes: {
+
+    productName: {
+      type: 'string',
+      required: true
+    },
+
+    productPrice: {
+      type: 'number',
+      required: true
+    },
+
+    brand: {
+      type: 'string',
+      required: true
+    },
+
+    category: {
+      type: 'string',
+      required: true
+    },
+
+    sellerInfo: {
+      type: 'string',
+      required: true
+    }
     
   },
 

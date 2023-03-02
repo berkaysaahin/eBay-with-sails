@@ -20,7 +20,12 @@ module.exports.routes = {
   ***************************************************************************/
 
   '/': { view: 'pages/homepage' },
-  'POST /user/create': { controller: 'user', action: 'create'}
+  'POST /user/create': { controller: 'user', action: 'create'},
+  'POST /product/create': {controller: 'product', action: 'create'},
+  'GET /product/getall': { controller: 'product', action: 'find'},
+  'GET /product/getByName': { controller: 'product', action: 'find'},
+  'GET /user/getByUserName': { controller: 'user', action: 'find'},
+  'GET /user/getByEmail': { controller: 'user', action: 'find'}
 
 
   /***************************************************************************
